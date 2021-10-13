@@ -1,0 +1,36 @@
+#heading,.login_div1,.login_div2,.q_div,.number_div1,.number_div2{
+    font-family: 'IM Fell English SC' !important;
+    font-size: 55px;
+}
+.login_div1,.login_div2,.q_div,.number_div1,.number_div2{
+    font-size: 25px !important;
+    text-align: center;
+    width: 30% !important;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+input{
+    width: 100% !important;
+    font-size: large !important;
+}
+#body_background{
+    background-image: url("bg-1.png");
+}
+#heading{
+    margin-left: 65px;
+}
+#addUser,#generate_q{
+   width: 30%;
+}
+#body_background2{
+    background-image: url("bg-2.png");
+}
+.score{
+    font-size: 30px;
+    font-family: 'IM Fell English SC';
+    margin-left: 100px;
+}
+.number_div2{
+    margin-left: 35px;
+}
+

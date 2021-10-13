@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Mathizz</title>
+        <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+    <body id="body_background2" onload="set()">
+        <div class="container">
+            <label id="heading">Mathizz</label>
+            <br><br>
+            <label class="score" id="1">Score Of</label>
+            <br>
+            <label class="score" id="2">Score Of</label>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-6 q_div btn btn-danger">
+                <label>Question:</label>
+                <br>
+                <label id="q"></label>
+                <br>
+                <label>Answer: </label>
+                <br>
+                <input placeholder="Answer Here" id="a" class="form-control" type="number">
+            </div>
+            <br><br><br><br><br><br><br><br><br>
+            <button onclick="submit()" class="btn btn-warning" id="generate_q">Submit Answer</button>
+            <br><br><br><br>
+                <div class="col-lg-6 number_div1 btn btn-primary">
+                    <label>Number-1</label>
+                    <br>
+                    <input placeholder="Number-1" id="number1" class="form-control" type="number">
+                </div>
+                <div class="col-lg-6 number_div2 btn btn-primary">
+                    <label>Number-2</label>
+                    <br>
+                    <input placeholder="Number-2" id="number2" class="form-control" type="number">
+                </div>
+                <br><br><br><br><br><br><br><br>
+                <button onclick="generate()" class="btn btn-warning" id="generate_q">Generate Question</button>
+        </div>
+    </body>
+    <script src="Script.js"></script>
+</html>
